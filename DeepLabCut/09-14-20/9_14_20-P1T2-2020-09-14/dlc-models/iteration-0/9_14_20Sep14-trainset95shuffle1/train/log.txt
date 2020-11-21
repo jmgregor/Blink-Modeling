@@ -1,0 +1,530 @@
+2020-09-14 15:24:01 Config:
+{'Task': None,
+ 'TrainingFraction': None,
+ 'all_joints': [[0], [1], [2], [3], [4], [5]],
+ 'all_joints_names': ['center_upper_eyelid',
+                      'center_lower_eyelid',
+                      'left_lower_eyelid',
+                      'left_upper_eyelid',
+                      'right_upper_eyelid',
+                      'right_lower_eyelid'],
+ 'alphavalue': None,
+ 'batch_size': 1,
+ 'bodyparts': None,
+ 'bottomheight': 400,
+ 'colormap': None,
+ 'corner2move2': None,
+ 'crop': True,
+ 'crop_pad': 0,
+ 'cropping': None,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_9_14_20Sep14\\9_14_20_P1T295shuffle1.mat',
+ 'dataset_type': 'default',
+ 'date': None,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'dotsize': None,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\jmgre\\anaconda3\\envs\\DLC-GPU\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'iteration': None,
+ 'leftwidth': 400,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_9_14_20Sep14\\Documentation_data-9_14_20_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'minsize': 100,
+ 'mirror': False,
+ 'move2corner': None,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 6,
+ 'numframes2pick': None,
+ 'optimizer': 'sgd',
+ 'pcutoff': None,
+ 'pos_dist_thresh': 17,
+ 'project_path': 'J:\\jmgre\\Documents\\Senior '
+                 'Project\\DeepLabCut\\09-14-20\\9_14_20-P1T2-2020-09-14',
+ 'regularize': False,
+ 'resnet': None,
+ 'rightwidth': 400,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'scorer': None,
+ 'shuffle': True,
+ 'skeleton': [],
+ 'skeleton_color': 'black',
+ 'snapshot_prefix': 'J:\\jmgre\\Documents\\Senior '
+                    'Project\\DeepLabCut\\09-14-20\\9_14_20-P1T2-2020-09-14\\dlc-models\\iteration-0\\9_14_20Sep14-trainset95shuffle1\\train\\snapshot',
+ 'snapshotindex': None,
+ 'start': None,
+ 'stop': None,
+ 'stride': 8.0,
+ 'topheight': 400,
+ 'video_sets': None,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001,
+ 'x1': None,
+ 'x2': None,
+ 'y1': None,
+ 'y2': None}
+2020-09-14 15:25:43 iteration: 1000 loss: 0.0283 lr: 0.005
+2020-09-14 15:27:08 iteration: 2000 loss: 0.0173 lr: 0.005
+2020-09-14 15:28:27 iteration: 3000 loss: 0.0141 lr: 0.005
+2020-09-14 15:29:53 iteration: 4000 loss: 0.0122 lr: 0.005
+2020-09-14 15:31:13 iteration: 5000 loss: 0.0109 lr: 0.005
+2020-09-14 15:32:37 iteration: 6000 loss: 0.0095 lr: 0.005
+2020-09-14 15:34:10 iteration: 7000 loss: 0.0087 lr: 0.005
+2020-09-14 15:35:35 iteration: 8000 loss: 0.0083 lr: 0.005
+2020-09-14 15:37:04 iteration: 9000 loss: 0.0077 lr: 0.005
+2020-09-14 15:38:37 iteration: 10000 loss: 0.0071 lr: 0.005
+2020-09-14 15:39:58 iteration: 11000 loss: 0.0118 lr: 0.02
+2020-09-14 15:41:19 iteration: 12000 loss: 0.0094 lr: 0.02
+2020-09-14 15:42:51 iteration: 13000 loss: 0.0080 lr: 0.02
+2020-09-14 15:44:13 iteration: 14000 loss: 0.0072 lr: 0.02
+2020-09-14 15:45:33 iteration: 15000 loss: 0.0067 lr: 0.02
+2020-09-14 15:46:57 iteration: 16000 loss: 0.0060 lr: 0.02
+2020-09-14 15:48:35 iteration: 17000 loss: 0.0054 lr: 0.02
+2020-09-14 15:50:01 iteration: 18000 loss: 0.0054 lr: 0.02
+2020-09-14 15:51:27 iteration: 19000 loss: 0.0049 lr: 0.02
+2020-09-14 15:52:53 iteration: 20000 loss: 0.0047 lr: 0.02
+2020-09-14 15:54:22 iteration: 21000 loss: 0.0047 lr: 0.02
+2020-09-14 15:55:48 iteration: 22000 loss: 0.0045 lr: 0.02
+2020-09-14 15:57:13 iteration: 23000 loss: 0.0042 lr: 0.02
+2020-09-14 15:58:41 iteration: 24000 loss: 0.0039 lr: 0.02
+2020-09-14 16:00:17 iteration: 25000 loss: 0.0041 lr: 0.02
+2020-09-14 16:01:47 iteration: 26000 loss: 0.0039 lr: 0.02
+2020-09-14 16:03:10 iteration: 27000 loss: 0.0036 lr: 0.02
+2020-09-14 16:04:36 iteration: 28000 loss: 0.0037 lr: 0.02
+2020-09-14 16:06:07 iteration: 29000 loss: 0.0036 lr: 0.02
+2020-09-14 16:07:37 iteration: 30000 loss: 0.0034 lr: 0.02
+2020-09-14 16:09:02 iteration: 31000 loss: 0.0035 lr: 0.02
+2020-09-14 16:10:28 iteration: 32000 loss: 0.0032 lr: 0.02
+2020-09-14 16:11:56 iteration: 33000 loss: 0.0033 lr: 0.02
+2020-09-14 16:13:38 iteration: 34000 loss: 0.0031 lr: 0.02
+2020-09-14 16:15:08 iteration: 35000 loss: 0.0031 lr: 0.02
+2020-09-14 16:16:34 iteration: 36000 loss: 0.0031 lr: 0.02
+2020-09-14 16:17:59 iteration: 37000 loss: 0.0030 lr: 0.02
+2020-09-14 16:19:23 iteration: 38000 loss: 0.0029 lr: 0.02
+2020-09-14 16:20:48 iteration: 39000 loss: 0.0030 lr: 0.02
+2020-09-14 16:22:11 iteration: 40000 loss: 0.0029 lr: 0.02
+2020-09-14 16:23:36 iteration: 41000 loss: 0.0029 lr: 0.02
+2020-09-14 16:25:00 iteration: 42000 loss: 0.0028 lr: 0.02
+2020-09-14 16:26:25 iteration: 43000 loss: 0.0029 lr: 0.02
+2020-09-14 16:27:51 iteration: 44000 loss: 0.0027 lr: 0.02
+2020-09-14 16:29:15 iteration: 45000 loss: 0.0028 lr: 0.02
+2020-09-14 16:30:39 iteration: 46000 loss: 0.0028 lr: 0.02
+2020-09-14 16:32:03 iteration: 47000 loss: 0.0027 lr: 0.02
+2020-09-14 16:33:28 iteration: 48000 loss: 0.0026 lr: 0.02
+2020-09-14 16:34:54 iteration: 49000 loss: 0.0027 lr: 0.02
+2020-09-14 16:36:18 iteration: 50000 loss: 0.0026 lr: 0.02
+2020-09-14 16:37:49 iteration: 51000 loss: 0.0027 lr: 0.02
+2020-09-14 16:39:14 iteration: 52000 loss: 0.0026 lr: 0.02
+2020-09-14 16:40:38 iteration: 53000 loss: 0.0026 lr: 0.02
+2020-09-14 16:42:02 iteration: 54000 loss: 0.0027 lr: 0.02
+2020-09-14 16:43:26 iteration: 55000 loss: 0.0026 lr: 0.02
+2020-09-14 16:44:49 iteration: 56000 loss: 0.0026 lr: 0.02
+2020-09-14 16:46:12 iteration: 57000 loss: 0.0025 lr: 0.02
+2020-09-14 16:47:40 iteration: 58000 loss: 0.0026 lr: 0.02
+2020-09-14 16:49:10 iteration: 59000 loss: 0.0024 lr: 0.02
+2020-09-14 16:50:34 iteration: 60000 loss: 0.0024 lr: 0.02
+2020-09-14 16:51:58 iteration: 61000 loss: 0.0025 lr: 0.02
+2020-09-14 16:53:21 iteration: 62000 loss: 0.0024 lr: 0.02
+2020-09-14 16:54:45 iteration: 63000 loss: 0.0025 lr: 0.02
+2020-09-14 16:56:09 iteration: 64000 loss: 0.0024 lr: 0.02
+2020-09-14 16:57:33 iteration: 65000 loss: 0.0023 lr: 0.02
+2020-09-14 16:58:57 iteration: 66000 loss: 0.0023 lr: 0.02
+2020-09-14 17:00:21 iteration: 67000 loss: 0.0023 lr: 0.02
+2020-09-14 17:01:46 iteration: 68000 loss: 0.0023 lr: 0.02
+2020-09-14 17:03:10 iteration: 69000 loss: 0.0022 lr: 0.02
+2020-09-14 17:04:33 iteration: 70000 loss: 0.0023 lr: 0.02
+2020-09-14 17:05:58 iteration: 71000 loss: 0.0023 lr: 0.02
+2020-09-14 17:07:22 iteration: 72000 loss: 0.0023 lr: 0.02
+2020-09-14 17:08:46 iteration: 73000 loss: 0.0023 lr: 0.02
+2020-09-14 17:10:10 iteration: 74000 loss: 0.0023 lr: 0.02
+2020-09-14 17:11:34 iteration: 75000 loss: 0.0022 lr: 0.02
+2020-09-14 17:12:59 iteration: 76000 loss: 0.0022 lr: 0.02
+2020-09-14 17:14:24 iteration: 77000 loss: 0.0023 lr: 0.02
+2020-09-14 17:15:48 iteration: 78000 loss: 0.0023 lr: 0.02
+2020-09-14 17:17:12 iteration: 79000 loss: 0.0023 lr: 0.02
+2020-09-14 17:18:37 iteration: 80000 loss: 0.0022 lr: 0.02
+2020-09-14 17:20:01 iteration: 81000 loss: 0.0021 lr: 0.02
+2020-09-14 17:21:26 iteration: 82000 loss: 0.0020 lr: 0.02
+2020-09-14 17:22:51 iteration: 83000 loss: 0.0021 lr: 0.02
+2020-09-14 17:24:15 iteration: 84000 loss: 0.0023 lr: 0.02
+2020-09-14 17:25:39 iteration: 85000 loss: 0.0021 lr: 0.02
+2020-09-14 17:27:04 iteration: 86000 loss: 0.0021 lr: 0.02
+2020-09-14 17:28:27 iteration: 87000 loss: 0.0021 lr: 0.02
+2020-09-14 17:29:58 iteration: 88000 loss: 0.0022 lr: 0.02
+2020-09-14 17:31:22 iteration: 89000 loss: 0.0021 lr: 0.02
+2020-09-14 17:32:47 iteration: 90000 loss: 0.0021 lr: 0.02
+2020-09-14 17:34:12 iteration: 91000 loss: 0.0021 lr: 0.02
+2020-09-14 17:35:38 iteration: 92000 loss: 0.0021 lr: 0.02
+2020-09-14 17:37:01 iteration: 93000 loss: 0.0021 lr: 0.02
+2020-09-14 17:38:25 iteration: 94000 loss: 0.0021 lr: 0.02
+2020-09-14 17:39:50 iteration: 95000 loss: 0.0020 lr: 0.02
+2020-09-14 17:41:16 iteration: 96000 loss: 0.0020 lr: 0.02
+2020-09-14 17:42:39 iteration: 97000 loss: 0.0021 lr: 0.02
+2020-09-14 17:44:04 iteration: 98000 loss: 0.0021 lr: 0.02
+2020-09-14 17:45:28 iteration: 99000 loss: 0.0020 lr: 0.02
+2020-09-14 17:46:52 iteration: 100000 loss: 0.0020 lr: 0.02
+2020-09-14 17:47:31 Config:
+{'Task': None,
+ 'TrainingFraction': None,
+ 'all_joints': [[0], [1], [2], [3], [4], [5]],
+ 'all_joints_names': ['center_upper_eyelid',
+                      'center_lower_eyelid',
+                      'left_lower_eyelid',
+                      'left_upper_eyelid',
+                      'right_upper_eyelid',
+                      'right_lower_eyelid'],
+ 'alphavalue': None,
+ 'batch_size': 1,
+ 'bodyparts': None,
+ 'bottomheight': 400,
+ 'colormap': None,
+ 'corner2move2': None,
+ 'crop': True,
+ 'crop_pad': 0,
+ 'cropping': None,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_9_14_20Sep14\\9_14_20_P1T295shuffle1.mat',
+ 'dataset_type': 'default',
+ 'date': None,
+ 'deconvolutionstride': 2,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'dotsize': None,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\jmgre\\anaconda3\\envs\\DLC-GPU\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'iteration': None,
+ 'leftwidth': 400,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_9_14_20Sep14\\Documentation_data-9_14_20_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'minsize': 100,
+ 'mirror': False,
+ 'move2corner': None,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 6,
+ 'numframes2pick': None,
+ 'optimizer': 'sgd',
+ 'output_stride': 16,
+ 'pcutoff': None,
+ 'pos_dist_thresh': 17,
+ 'project_path': 'J:\\jmgre\\Documents\\Senior '
+                 'Project\\DeepLabCut\\09-14-20\\9_14_20-P1T2-2020-09-14',
+ 'regularize': False,
+ 'resnet': None,
+ 'rightwidth': 400,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'scorer': None,
+ 'shuffle': True,
+ 'skeleton': [],
+ 'skeleton_color': 'black',
+ 'snapshot_prefix': 'J:\\jmgre\\Documents\\Senior '
+                    'Project\\DeepLabCut\\09-14-20\\9_14_20-P1T2-2020-09-14\\dlc-models\\iteration-0\\9_14_20Sep14-trainset95shuffle1\\test\\snapshot',
+ 'snapshotindex': None,
+ 'start': None,
+ 'stop': None,
+ 'stride': 8.0,
+ 'topheight': 400,
+ 'video_sets': None,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001,
+ 'x1': None,
+ 'x2': None,
+ 'y1': None,
+ 'y2': None}
+2020-09-14 17:48:54 Config:
+{'Task': None,
+ 'TrainingFraction': None,
+ 'all_joints': [[0], [1], [2], [3], [4], [5]],
+ 'all_joints_names': ['center_upper_eyelid',
+                      'center_lower_eyelid',
+                      'left_lower_eyelid',
+                      'left_upper_eyelid',
+                      'right_upper_eyelid',
+                      'right_lower_eyelid'],
+ 'alphavalue': None,
+ 'batch_size': 1,
+ 'bodyparts': None,
+ 'bottomheight': 400,
+ 'colormap': None,
+ 'corner2move2': None,
+ 'crop': True,
+ 'crop_pad': 0,
+ 'cropping': None,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_9_14_20Sep14\\9_14_20_P1T295shuffle1.mat',
+ 'dataset_type': 'default',
+ 'date': None,
+ 'deconvolutionstride': 2,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'dotsize': None,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\jmgre\\anaconda3\\envs\\DLC-GPU\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'iteration': None,
+ 'leftwidth': 400,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_9_14_20Sep14\\Documentation_data-9_14_20_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'minsize': 100,
+ 'mirror': False,
+ 'move2corner': None,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 6,
+ 'numframes2pick': None,
+ 'optimizer': 'sgd',
+ 'output_stride': 16,
+ 'pcutoff': None,
+ 'pos_dist_thresh': 17,
+ 'project_path': 'J:\\jmgre\\Documents\\Senior '
+                 'Project\\DeepLabCut\\09-14-20\\9_14_20-P1T2-2020-09-14',
+ 'regularize': False,
+ 'resnet': None,
+ 'rightwidth': 400,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'scorer': None,
+ 'shuffle': True,
+ 'skeleton': [],
+ 'skeleton_color': 'black',
+ 'snapshot_prefix': 'J:\\jmgre\\Documents\\Senior '
+                    'Project\\DeepLabCut\\09-14-20\\9_14_20-P1T2-2020-09-14\\dlc-models\\iteration-0\\9_14_20Sep14-trainset95shuffle1\\test\\snapshot',
+ 'snapshotindex': None,
+ 'start': None,
+ 'stop': None,
+ 'stride': 8.0,
+ 'topheight': 400,
+ 'video_sets': None,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001,
+ 'x1': None,
+ 'x2': None,
+ 'y1': None,
+ 'y2': None}
+2020-09-14 18:21:06 Config:
+{'Task': None,
+ 'TrainingFraction': None,
+ 'all_joints': [[0], [1], [2], [3], [4], [5]],
+ 'all_joints_names': ['center_upper_eyelid',
+                      'center_lower_eyelid',
+                      'left_lower_eyelid',
+                      'left_upper_eyelid',
+                      'right_upper_eyelid',
+                      'right_lower_eyelid'],
+ 'alphavalue': None,
+ 'batch_size': 8,
+ 'bodyparts': None,
+ 'bottomheight': 400,
+ 'colormap': None,
+ 'corner2move2': None,
+ 'crop': True,
+ 'crop_pad': 0,
+ 'cropping': None,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_9_14_20Sep14\\9_14_20_P1T295shuffle1.mat',
+ 'dataset_type': 'default',
+ 'date': None,
+ 'deconvolutionstride': 2,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'dotsize': None,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\jmgre\\anaconda3\\envs\\DLC-GPU\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'iteration': None,
+ 'leftwidth': 400,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_9_14_20Sep14\\Documentation_data-9_14_20_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'minsize': 100,
+ 'mirror': False,
+ 'move2corner': None,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 6,
+ 'num_outputs': 1,
+ 'numframes2pick': None,
+ 'optimizer': 'sgd',
+ 'output_stride': 16,
+ 'pcutoff': None,
+ 'pos_dist_thresh': 17,
+ 'project_path': 'J:\\jmgre\\Documents\\Senior '
+                 'Project\\DeepLabCut\\09-14-20\\9_14_20-P1T2-2020-09-14',
+ 'regularize': False,
+ 'resnet': None,
+ 'rightwidth': 400,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'scorer': None,
+ 'shuffle': True,
+ 'skeleton': [],
+ 'skeleton_color': 'black',
+ 'snapshot_prefix': 'J:\\jmgre\\Documents\\Senior '
+                    'Project\\DeepLabCut\\09-14-20\\9_14_20-P1T2-2020-09-14\\dlc-models\\iteration-0\\9_14_20Sep14-trainset95shuffle1\\test\\snapshot',
+ 'snapshotindex': None,
+ 'start': None,
+ 'stop': None,
+ 'stride': 8.0,
+ 'topheight': 400,
+ 'video_sets': None,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001,
+ 'x1': None,
+ 'x2': None,
+ 'y1': None,
+ 'y2': None}
+2020-09-14 18:25:54 Config:
+{'Task': None,
+ 'TrainingFraction': None,
+ 'all_joints': [[0], [1], [2], [3], [4], [5]],
+ 'all_joints_names': ['center_upper_eyelid',
+                      'center_lower_eyelid',
+                      'left_lower_eyelid',
+                      'left_upper_eyelid',
+                      'right_upper_eyelid',
+                      'right_lower_eyelid'],
+ 'alphavalue': None,
+ 'batch_size': 8,
+ 'bodyparts': None,
+ 'bottomheight': 400,
+ 'colormap': None,
+ 'corner2move2': None,
+ 'crop': True,
+ 'crop_pad': 0,
+ 'cropping': None,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_9_14_20Sep14\\9_14_20_P1T295shuffle1.mat',
+ 'dataset_type': 'default',
+ 'date': None,
+ 'deconvolutionstride': 2,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'dotsize': None,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\jmgre\\anaconda3\\envs\\DLC-GPU\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'iteration': None,
+ 'leftwidth': 400,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-0\\UnaugmentedDataSet_9_14_20Sep14\\Documentation_data-9_14_20_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'minsize': 100,
+ 'mirror': False,
+ 'move2corner': None,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 6,
+ 'num_outputs': 1,
+ 'numframes2pick': None,
+ 'optimizer': 'sgd',
+ 'output_stride': 16,
+ 'pcutoff': None,
+ 'pos_dist_thresh': 17,
+ 'project_path': 'J:\\jmgre\\Documents\\Senior '
+                 'Project\\DeepLabCut\\09-14-20\\9_14_20-P1T2-2020-09-14',
+ 'regularize': False,
+ 'resnet': None,
+ 'rightwidth': 400,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'scorer': None,
+ 'shuffle': True,
+ 'skeleton': [],
+ 'skeleton_color': 'black',
+ 'snapshot_prefix': 'J:\\jmgre\\Documents\\Senior '
+                    'Project\\DeepLabCut\\09-14-20\\9_14_20-P1T2-2020-09-14\\dlc-models\\iteration-0\\9_14_20Sep14-trainset95shuffle1\\test\\snapshot',
+ 'snapshotindex': None,
+ 'start': None,
+ 'stop': None,
+ 'stride': 8.0,
+ 'topheight': 400,
+ 'video_sets': None,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001,
+ 'x1': None,
+ 'x2': None,
+ 'y1': None,
+ 'y2': None}

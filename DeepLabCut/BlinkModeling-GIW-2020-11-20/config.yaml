@@ -1,0 +1,219 @@
+    # Project definitions (do not edit)
+Task: BlinkModeling
+scorer: GIW
+date: Nov20
+multianimalproject: false
+
+    # Project path (change when moving around)
+project_path: J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_1_Trial_1_Eye_0_Blink_2.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_1_Trial_2_Eye_0_Blink_14.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_2_Trial_1_Eye_1_Blink_43.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_2_Trial_2_Eye_1_Blink_56.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_2_Trial_3_Eye_0_Blink_8.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_2_Trial_3_Eye_1_Blink_66.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_3_Trial_2_Eye_0_Blink_5.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_3_Trial_2_Eye_1_Blink_4.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_4_Trial_1_Eye_0_Blink_4.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_4_Trial_1_Eye_1_Blink_117.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_6_Trial_1_Eye_1_Blink_2.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_6_Trial_2_Eye_0_Blink_2.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_6_Trial_2_Eye_1_Blink_2.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_8_Trial_1_Eye_0_Blink_5.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_8_Trial_2_Eye_0_Blink_34.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_8_Trial_2_Eye_1_Blink_42.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_8_Trial_3_Eye_0_Blink_3.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_8_Trial_3_Eye_1_Blink_44.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_9_Trial_1_Eye_0_Blink_63.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_9_Trial_1_Eye_1_Blink_27.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_9_Trial_2_Eye_0_Blink_19.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_9_Trial_2_Eye_1_Blink_50.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_10_Trial_1_Eye_0_Blink_10.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_10_Trial_1_Eye_1_Blink_5.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_12_Trial_1_Eye_0_Blink_18.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_12_Trial_1_Eye_1_Blink_72.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_12_Trial_2_Eye_0_Blink_21.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_12_Trial_2_Eye_1_Blink_10.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_12_Trial_3_Eye_0_Blink_15.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_12_Trial_3_Eye_1_Blink_8.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_12_Trial_4_Eye_0_Blink_16.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_12_Trial_4_Eye_1_Blink_31.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_15_Trial_3_Eye_0_Blink_11.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_15_Trial_3_Eye_1_Blink_7.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_16_Trial_1_Eye_0_Blink_38.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_16_Trial_1_Eye_1_Blink_26.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_16_Trial_2_Eye_0_Blink_16.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_16_Trial_2_Eye_1_Blink_24.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_17_Trial_1_Eye_0_Blink_4.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_17_Trial_1_Eye_1_Blink_3.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_17_Trial_2_Eye_0_Blink_24.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_17_Trial_3_Eye_1_Blink_5.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_18_Trial_1_Eye_0_Blink_32.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_18_Trial_1_Eye_1_Blink_43.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_18_Trial_4_Eye_0_Blink_7.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_18_Trial_4_Eye_1_Blink_7.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_19_Trial_2_Eye_0_Blink_3.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_19_Trial_2_Eye_1_Blink_16.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_19_Trial_3_Eye_0_Blink_14.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_19_Trial_3_Eye_1_Blink_7.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_20_Trial_1_Eye_0_Blink_35.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_20_Trial_3_Eye_0_Blink_22.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_20_Trial_3_Eye_1_Blink_20.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_22_Trial_3_Eye_1_Blink_92.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\BlinkModeling-GIW-2020-11-20\videos\Person_22_Trial_4_Eye_1_Blink_31.avi:
+    crop: 0, 640, 0, 480
+bodyparts:
+- upper_1
+- upper_2
+- upper_3
+- upper_4
+- upper_5
+- upper_6
+- upper_7
+- upper_8
+- upper_9
+- upper_10
+- upper_11
+- upper_12
+- upper_13
+- upper_14
+- upper_15
+- lower_1
+- lower_2
+- lower_3
+- lower_4
+- lower_5
+- lower_6
+- lower_7
+- lower_8
+- lower_9
+- lower_10
+- lower_11
+- lower_12
+- lower_13
+- lower_14
+- lower_15
+- pupil_N
+- pupil_S
+- pupil_E
+- pupil_W
+- pupil_NW
+- pupil_NE
+- pupil_SE
+- pupil_SW
+start: 0
+stop: 1
+numframes2pick: 10
+
+    # Plotting configuration
+skeleton:
+- - pupil_N
+  - pupil_NE
+- - pupil_NE
+  - pupil_E
+- - pupil_E
+  - pupil_SE
+- - pupil_SE
+  - pupil_S
+- - pupil_S
+  - pupil_SW
+- - pupil_SW
+  - pupil_W
+- - pupil_W
+  - pupil_NW
+- - pupil_NW
+  - pupil_N
+- - pupil_N
+  - pupil_S
+- - pupil_E
+  - pupil_W
+- - pupil_NE
+  - pupil_SE
+- - pupil_NW
+  - pupil_SW
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 12
+alphavalue: 0.7
+colormap: plasma
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+croppedtraining: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true

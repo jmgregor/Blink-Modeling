@@ -1,0 +1,128 @@
+# Project definitions (do not edit)
+Task: '9_14_20'
+scorer: P1T2
+date: Sep14
+
+# Project path (change when moving around)
+project_path: J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14
+
+# Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\2_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\1_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\3_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\4_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\5_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\6_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\7_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\8_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\9_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\10_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\11_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\12_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\13_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\14_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\15_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\16_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\17_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\18_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\19_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\20_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\21_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\22_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\23_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\24_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\25_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\26_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\27_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\28_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\29_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\30_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\31_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\32_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\33_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\34_blink.avi:
+    crop: 0, 640, 0, 480
+  J:\jmgre\Documents\Senior Project\DeepLabCut\09-14-20\9_14_20-P1T2-2020-09-14\videos\35_blink.avi:
+    crop: 0, 640, 0, 480
+bodyparts:
+- center_upper_eyelid
+- center_lower_eyelid
+- left_lower_eyelid
+- left_upper_eyelid
+- right_upper_eyelid
+- right_lower_eyelid
+start: 0
+stop: 1
+numframes2pick: 20
+
+# Plotting configuration
+skeleton:
+- - center_upper_eyelid
+  - center_lower_eyelid
+- - left_lower_eyelid
+  - left_upper_eyelid
+- - right_upper_eyelid
+  - right_lower_eyelid
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 12
+alphavalue: 0.7
+colormap: jet
+
+# Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+resnet:
+snapshotindex: -1
+batch_size: 8
+
+# Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+#if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+# Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
+default_net_type: resnet_50
+default_augmenter: default
